@@ -123,12 +123,12 @@ class EvalResult:
 # Task 2 — RAGAS Evaluator (Simplified word-overlap heuristic)
 # ---------------------------------------------------------------------------
 # In production, replace with actual RAGAS framework:
-from ragas import evaluate
-from ragas.metrics import Faithfulness, AnswerRelevancy, ContextRecall, ContextPrecision
+#   from ragas import evaluate
+#   from ragas.metrics import Faithfulness, AnswerRelevancy, ContextRecall, ContextPrecision
 #
 # Or DeepEval:
-from deepeval.metrics import FaithfulnessMetric, AnswerRelevancyMetric
-assert_test(test_case, [faithfulness, hallucination])
+#   from deepeval.metrics import FaithfulnessMetric, AnswerRelevancyMetric
+#   assert_test(test_case, [faithfulness, hallucination])
 #
 # Or TruLens:
 #   from trulens.core import Feedback
